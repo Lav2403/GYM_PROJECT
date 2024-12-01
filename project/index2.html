@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+   <style>
+    body {
+           margin: 0px;
+           padding: 0px;
+           background: url(IMG/rodrigo-s-2mz9IKab7DE-unsplash.jpg);
+           color: grey;
+           background-size: 1000px 300px;
+
+
+    }
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 65px;
+        top: 10px;
+        border: 2px solid red;
+
+
+    }
+    .mid {
+        display:block;
+        border: 2px solid greenyellow;
+        width: 500px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+
+
+    }
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        bottom: -85px;
+        border: 2px solid purple;
+    }
+    .left img {
+        display: block;
+        width: 90px;
+        height: 40px;
+        filter: invert(100%);
+
+
+    }
+    .navbar {
+        display: inline-block;
+
+    }
+    .navbar li {
+            display: inline-block;
+            font-size: 16px;
+    }
+    .navbar li a {
+        text-decoration: none;
+        color: blue;
+        margin: 10px;
+    }
+    .navbar li a:hover {
+text-decoration: underline;
+color: red;
+    }
+    .navbar li a:active {
+color: green;
+
+    }
+    .navbar li a :visited{
+        color: brown;
+    }
+    .btn {
+        background-color: aquamarine;
+        padding: 4px;
+        margin: 20px;
+        margin-right: 10px;
+        margin-top: -5px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .btn a {
+text-decoration: none;
+
+    }
+    .btn:hover{
+        background-color: antiquewhite;
+        
+
+    }
+    .right h4{
+        color: blueviolet;
+        margin: 2px;
+        text-align: center;
+    }
+    .container{
+        border: 2px solid red;
+        margin-top: 48px;
+        margin-left: 10px;
+        padding: 10px;
+        width: 40%;
+        border-radius: 10px;
+    }
+    .formgroup{
+        margin: 3px;
+
+    }
+    .button{
+        background-color: aquamarine;
+        padding: 4px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 125px;
+        margin-top: 15px;
+        width: 180px;
+
+    }
+    .formgroup{
+        display: block;
+        width: 169px;
+        padding: 11px;
+        margin-left: 118px;
+        margin-top: 30px;
+    }
+    .formgroup input{
+text-align: center;
+background-color: rgb(48, 131, 203);
+color: rgb(69, 22, 71);
+    }
+    .container h1 {
+        color: rgb(0, 255, 225);
+        text-align: center;
+    }
+    .container h2 {
+        color: brown;
+        text-align: center;
+    }
+    .container h3 {
+        color: blue;
+        text-align: center;
+
+        
+    }
+    .topnav{
+        border: 2px solid red ;
+        display: inline-block;
+        position: absolute;
+        top: 22px;
+        right: 15px;
+        width:160px ;
+        border-radius: 30px;
+        background-color: blueviolet;
+
+    }
+    .topnav input{
+        background-color: aquamarine;
+        margin: 8px;
+        padding: 4px;
+        color: blue;
+        border-radius: 30px;
+        width: 90px;
+
+
+
+
+    }
+    .icon{
+        border: 2px solid blueviolet;
+        background-color: blanchedalmond;
+        border-radius: 30px;
+    }
+
+
+    
+</style>
+
+</head>
+
+<body>
+    <form action="demo.php>
+    <header class="header" >
+    <div class="left"> <img src="img/istockphoto-1499216003-1024x1024.jpg" alt="Gym logo"> Fitness Gym</div> 
+    <div class="mid"> 
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="DOC/Muscle House.docx">About us</a></li>
+           <li><a href=""https://www.calculator.net/fitness-and-health-calculator.html>Fitness calculator</a></li>
+            <li><a href="DOC/contact us.txt">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="right"> 
+        <h4>Our product</h4>
+        <button class="btn"> <a href="https://www.amazon.in/bodybuilding-supplements-for-men/s?k=bodybuilding+supplements
+            +for+men">supplements</a></button>
+            <button class="btn"><a href="https://www.amazon.com/Gym-Apparel/s?k=Gym+Apparel">Merchandies</a></button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Fitness Gym</h1>
+        <h2>#fitnessworkout</h2>
+        <h3>Fill this form</h3>
+        <div class="formgroup"> 
+            <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="formgroup"> <input type ="text" placeholder="Enter your address"></div>
+        <div class="formgroup"> <input type="number" name ="" placeholder="Enter your age"></div>
+        <div class="formgroup"> <input type="number" placeholder="Enter your Phone Number"></div>
+     <input type="submit" value="submit" class="button">
+    <input type="reset" value="reset" class="button">
+    </div>
+    <div class="topnav"><input type="text" placeholder="search"> 
+        <button type="submit" class="icon" ><i class="fa fa-search"></i> </button>
+    </div>
+
+   </form> 
+</body>
+
+</html>
